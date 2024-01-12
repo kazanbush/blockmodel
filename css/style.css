@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.item span {
+    color: blue;
+}
+
+.item::before {
+    content: "\1F3CE";
+    color: brown;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(234, 234, 234);
+
+}
+
+.item::after {
+    content: "\1F6E9";
+    color: blueviolet;
+}
+
+.block1 {
+    background-color: rgb(255, 153, 0);
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border: 3px solid red;
+    margin: 20px;
+    display: inline-block;
+}
+
+.block2 {
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border: 3px solid burlywood;
+    margin: 20px;
+    display: inline-block;
+}
+
+.inline1 {
+    background-color: rgb(100, 100, 201);
+    display: block;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+.inline2 {
+    background-color: rgb(127, 201, 201);
+    display: block;
+    padding: 20px;
+}
